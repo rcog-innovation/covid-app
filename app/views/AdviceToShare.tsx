@@ -11,7 +11,7 @@ export default function AdviceToShare() {
     <ScrollView style={{ padding: 16 }}>
       <H1>Advice for health professionals to share with pregnant women</H1>
 
-      <H2>General advice</H2>
+      <H2>2.1 General advice</H2>
 
       <Paragraph>
         As a pregnant woman the news that you were placed in a ‘vulnerable
@@ -52,7 +52,7 @@ export default function AdviceToShare() {
         </Text>
       </BulletPoints>
 
-      <H2>Advice regarding social distancing and self-isolation</H2>
+      <H2>2.2 Advice regarding social distancing and self-isolation</H2>
 
       <Paragraph>
         The UK Government has decided that, given the limited information
@@ -108,7 +108,7 @@ export default function AdviceToShare() {
       />
 
       <H2>
-        Advice regarding your appointments or urgent visits to clinics and
+        2.3 Advice regarding your appointments or urgent visits to clinics and
         hospitals
       </H2>
 

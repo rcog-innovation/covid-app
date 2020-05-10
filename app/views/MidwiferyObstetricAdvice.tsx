@@ -14,7 +14,7 @@ export default function MidwiferyObstetricAdvice() {
         women
       </H1>
 
-      <H2>Reducing the transmission of COVID-19 in maternity settings</H2>
+      <H2>3.1 Reducing the transmission of COVID-19 in maternity settings</H2>
 
       <Paragraph>
         Most women attending maternity services are healthy and are advised to
@@ -48,7 +48,7 @@ export default function MidwiferyObstetricAdvice() {
       <Button url="Guidance on Shielding" title="Guidance on Shielding" />
 
       <H2>
-        General advice regarding the continued provision of antenatal and
+        3.2 General advice regarding the continued provision of antenatal and
         postnatal services
       </H2>
 
@@ -160,7 +160,8 @@ export default function MidwiferyObstetricAdvice() {
       </BulletPoints>
 
       <H2>
-        General advice regarding possible service modifications during COVID-19
+        3.3 General advice regarding possible service modifications during
+        COVID-19
       </H2>
 
       <Paragraph>
@@ -225,7 +226,7 @@ export default function MidwiferyObstetricAdvice() {
         title="RCOG Website"
       />
 
-      <H2>General advice regarding intrapartum services</H2>
+      <H2>3.4 General advice regarding intrapartum services</H2>
 
       <BulletPoints>
         <Text>
@@ -287,7 +288,7 @@ export default function MidwiferyObstetricAdvice() {
         </>
       </BulletPoints>
 
-      <H2>Smoking cessation and carbon monoxide monitoring in pregnancy</H2>
+      <H2>3.5 Smoking cessation and carbon monoxide monitoring in pregnancy</H2>
 
       <Paragraph>
         Smoking is very likely to be associated with more severe disease in
@@ -321,7 +322,7 @@ export default function MidwiferyObstetricAdvice() {
         title="Saving Babies Bundle"
       />
 
-      <H2>Maternal mental wellbeing</H2>
+      <H2>3.6 Maternal mental wellbeing</H2>
 
       <Paragraph>
         This pandemic will inevitably result in an increased amount of anxiety

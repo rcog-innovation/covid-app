@@ -18,7 +18,7 @@ export default function Introduction() {
 
       <Paragraph style={{ marginHorizontal: 16 }}>
         1. The reduction of transmission of COVID-19 to pregnant women.
-        {"\n"}2. The provision of safe care to pregnant women with
+        {"\n\n"}2. The provision of safe care to pregnant women with
         suspected/confirmed COVID-19.
       </Paragraph>
 
@@ -66,7 +66,7 @@ export default function Introduction() {
 
       <Button url="mailto:COVID-19@rcog.org.uk" title="Email us" />
 
-      <H2>The virus</H2>
+      <H2>1.1 The virus</H2>
 
       <Paragraph>
         Novel coronavirus (SARS-COV-2) is a new strain of coronavirus causing
@@ -77,7 +77,7 @@ export default function Introduction() {
         Respiratory Syndrome (SARS-CoV).
       </Paragraph>
 
-      <H2>Epidemiology</H2>
+      <H2>1.2 Epidemiology</H2>
 
       <Paragraph>
         The virus appears to have originated in Hubei province in China towards
@@ -143,7 +143,7 @@ export default function Introduction() {
         the RCOG guidance if this changes.
       </Paragraph>
 
-      <H2>Transmission</H2>
+      <H2>1.3 Transmission</H2>
 
       <Paragraph>
         Most cases of COVID-19 globally have evidence of human to human
@@ -198,7 +198,7 @@ export default function Introduction() {
         these reports will be included in future versions of this guideline.
       </Paragraph>
 
-      <H2>Effect on pregnant women</H2>
+      <H2>1.4 Effect on pregnant women</H2>
 
       <Paragraph>
         There is evolving evidence within the general population that there
@@ -276,7 +276,7 @@ export default function Introduction() {
         at home, or hospital admission, is likely to increase the risk further.
       </Paragraph>
 
-      <H2>Effect on the fetus</H2>
+      <H2>1.5 Effect on the fetus</H2>
 
       <Paragraph>
         There are currently no data suggesting an increased risk of miscarriage
