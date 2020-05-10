@@ -9,7 +9,12 @@ export default function Header() {
         title="Covid Pregnancy App"
         subtitle="Royal College of Obstetricians and Gynaecologists"
       />
-      <Appbar.Action icon="dots-vertical" />
+      {/* <Appbar.Action
+            icon="menu"
+            onPress={() =>
+              this.props.navigation.dispatch(DrawerActions.toggleDrawer())
+            }
+          /> */}
     </Appbar.Header>
   );
 }
