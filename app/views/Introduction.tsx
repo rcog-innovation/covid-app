@@ -5,9 +5,6 @@ import Button from "../components/typography/Button";
 import H2 from "../components/typography/H2";
 import H1 from "../components/typography/H1";
 
-/**
- * Provides shared styling (e.g. AppBar) and the router
- */
 export default function Introduction() {
   return (
     <ScrollView style={{ margin: 16 }}>

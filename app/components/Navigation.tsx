@@ -26,7 +26,7 @@ export default function Navigation({ navigation }: Props) {
         <Drawer.Item
           label="For midwifery and obstetric services"
           onPress={() => {
-            navigation.navigate("Home");
+            navigation.navigate("Midwifery & Obstetric Advice");
           }}
         />
       </Drawer.Section>

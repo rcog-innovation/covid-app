@@ -1,9 +1,10 @@
 import React from "react";
-import { ScrollView } from "react-native";
+import { ScrollView, Text } from "react-native";
 import Paragraph from "../components/typography/Paragraph";
 import Button from "../components/typography/Button";
 import H2 from "../components/typography/H2";
 import H1 from "../components/typography/H1";
+import BulletPoints from "../components/typography/BulletPoints";
 
 export default function AdviceToShare() {
   return (
@@ -35,17 +36,21 @@ export default function AdviceToShare() {
 
       <Paragraph>Our general advice is that:</Paragraph>
 
-      <Paragraph style={{ marginHorizontal: 16 }}>
-        - If you are infected with COVID-19 you are still most likely to have no
-        symptoms or a mild illness from which you will make a full recovery.
-        {"\n"}- If you develop more severe symptoms or your recovery is delayed,
-        this may be a sign that you are developing a more significant chest
-        infection that requires enhanced care. Our advice remains that if you
-        feel your symptoms are worsening or if you are not getting better, you
-        are recommended to contact the NHS on 111 (or a local alternative), or
-        your maternity unit, or in an emergency 999, straight away for further
-        information and advice.
-      </Paragraph>
+      <BulletPoints>
+        <Text>
+          If you are infected with COVID-19 you are still most likely to have no
+          symptoms or a mild illness from which you will make a full recovery.
+        </Text>
+        <Text>
+          If you develop more severe symptoms or your recovery is delayed, this
+          may be a sign that you are developing a more significant chest
+          infection that requires enhanced care. Our advice remains that if you
+          feel your symptoms are worsening or if you are not getting better, you
+          are recommended to contact the NHS on 111 (or a local alternative), or
+          your maternity unit, or in an emergency 999, straight away for further
+          information and advice.
+        </Text>
+      </BulletPoints>
 
       <H2>Advice regarding social distancing and self-isolation</H2>
 
@@ -112,20 +117,26 @@ export default function AdviceToShare() {
         previous pregnancies, the following practical advice may be helpful:
       </Paragraph>
 
-      <Paragraph style={{ marginHorizontal: 16 }}>
-        - If you have a routine scan or visit due in the coming days, please
-        contact your maternity unit for advice and to agree a plan. You may
-        still be advised to attend for a visit, but this appointment may change
-        due to staffing requirements.
-        {"\n"}- If you are between appointments, please wait to hear from your
-        maternity team.
-        {"\n"}- If you are advised to attend for a scan or an appointment by
-        your local maternity team, this is because the need for the appointment
-        is greater than your risk of being exposed to COVID-19. Antenatal care
-        is essential to support you in having a healthy pregnancy and so we
-        strongly advise you do attend if asked to do so. If you have any
-        concerns about this, please discuss with your maternity unit.
-      </Paragraph>
+      <BulletPoints>
+        <Text>
+          If you have a routine scan or visit due in the coming days, please
+          contact your maternity unit for advice and to agree a plan. You may
+          still be advised to attend for a visit, but this appointment may
+          change due to staffing requirements.
+        </Text>
+        <Text>
+          If you are between appointments, please wait to hear from your
+          maternity team.
+        </Text>
+        <Text>
+          If you are advised to attend for a scan or an appointment by your
+          local maternity team, this is because the need for the appointment is
+          greater than your risk of being exposed to COVID-19. Antenatal care is
+          essential to support you in having a healthy pregnancy and so we
+          strongly advise you do attend if asked to do so. If you have any
+          concerns about this, please discuss with your maternity unit.
+        </Text>
+      </BulletPoints>
 
       <Paragraph>
         If you are attending more regularly in pregnancy, then your maternity
@@ -136,41 +147,53 @@ export default function AdviceToShare() {
         Whatever your personal situation please consider the following:
       </Paragraph>
 
-      <Paragraph style={{ marginHorizontal: 16 }}>
-        - Maternity care is essential and has been developed over many years to
-        reduce complications in pregnant women and babies. The risks of not
-        attending antenatal care include harm to you, your baby or both of you,
-        even in the context of coronavirus. It is important that you keep in
-        contact with your maternity team and continue to attend your scheduled
-        routine care when you are well.
-        {"\n"}- If you are concerned about your or your baby’s wellbeing,
-        including the baby’s movements, it remains of critical importance that
-        you seek advice and care from maternity services without delay. This is
-        a very challenging time, particularly if you have concerns about your
-        pregnancy and are worried about entering a hospital. Maternity units are
-        doing everything they can to minimise the spread of coronavirus
-        infection to healthy women and their babies, including restricting
-        access to visitors, using appropriate protection equipment and infection
-        control measures. It is very important not to be deterred from coming
-        into hospital when you or your baby need care. If you have an urgent
-        problem related to your pregnancy but not related to coronavirus, get in
-        touch using the same emergency contact details you already have.
-        {"\n"}- If you or anyone in your household has symptoms of COVID-19,
-        please contact your maternity team and they will arrange the right place
-        and time to come for your visits. You should not attend a routine
-        clinic, unless specific arrangements have been made.
-        {"\n"}- You will be asked to come alone to clinical appointments, or
-        keep the number of people with you to one (including midwifery visits in
-        your home). This will include being asked not to bring your children
-        with you to appointments. This is important in order to protect
-        maternity staff, other women and babies, and you and your family from
-        the risk of infection.
-        {"\n"}- There may be a need to reduce the number of antenatal visits you
-        have. This will be communicated with you, and will be done as safely as
-        possible, taking into account available evidence on the safe number of
-        visits required. Please attend all your scheduled appointments, and if
-        you have concerns about this please discuss with your maternity team.
-      </Paragraph>
+      <BulletPoints>
+        <Text>
+          Maternity care is essential and has been developed over many years to
+          reduce complications in pregnant women and babies. The risks of not
+          attending antenatal care include harm to you, your baby or both of
+          you, even in the context of coronavirus. It is important that you keep
+          in contact with your maternity team and continue to attend your
+          scheduled routine care when you are well.
+        </Text>
+        <Text>
+          If you are concerned about your or your baby’s wellbeing, including
+          the baby’s movements, it remains of critical importance that you seek
+          advice and care from maternity services without delay. This is a very
+          challenging time, particularly if you have concerns about your
+          pregnancy and are worried about entering a hospital. Maternity units
+          are doing everything they can to minimise the spread of coronavirus
+          infection to healthy women and their babies, including restricting
+          access to visitors, using appropriate protection equipment and
+          infection control measures. It is very important not to be deterred
+          from coming into hospital when you or your baby need care. If you have
+          an urgent problem related to your pregnancy but not related to
+          coronavirus, get in touch using the same emergency contact details you
+          already have.
+        </Text>
+        <Text>
+          If you or anyone in your household has symptoms of COVID-19, please
+          contact your maternity team and they will arrange the right place and
+          time to come for your visits. You should not attend a routine clinic,
+          unless specific arrangements have been made.
+        </Text>
+        <Text>
+          You will be asked to come alone to clinical appointments, or keep the
+          number of people with you to one (including midwifery visits in your
+          home). This will include being asked not to bring your children with
+          you to appointments. This is important in order to protect maternity
+          staff, other women and babies, and you and your family from the risk
+          of infection.
+        </Text>
+        <Text>
+          There may be a need to reduce the number of antenatal visits you have.
+          This will be communicated with you, and will be done as safely as
+          possible, taking into account available evidence on the safe number of
+          visits required. Please attend all your scheduled appointments, and if
+          you have concerns about this please discuss with your maternity team.
+        </Text>
+      </BulletPoints>
+
       <Paragraph>
         At this time, it is particularly important that you help your maternity
         team take care of you. If you have had an appointment cancelled or
