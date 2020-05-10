@@ -20,7 +20,7 @@ export default function Navigation({ navigation }: Props) {
         <Drawer.Item
           label="To share with pregnant women"
           onPress={() => {
-            navigation.navigate("Home");
+            navigation.navigate("Advice To Share");
           }}
         />
         <Drawer.Item

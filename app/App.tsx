@@ -5,6 +5,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Header from "./components/Header";
 import Home from "./views/Home";
 import Introduction from "./views/Introduction";
+import AdviceToShare from "./views/AdviceToShare";
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,7 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Introduction" component={Introduction} />
+          <Stack.Screen name="Advice To Share" component={AdviceToShare} />
         </Stack.Navigator>
       </NavigationContainer>
     </PaperProvider>
@@ -25,4 +27,5 @@ export default function App() {
 export type RootStackParamList = {
   Home: undefined;
   Introduction: undefined;
+  ["Advice To Share"]: undefined;
 };

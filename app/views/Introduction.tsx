@@ -1,6 +1,7 @@
 import React from "react";
-import { ScrollView, Linking, Button, View } from "react-native";
+import { ScrollView, Linking } from "react-native";
 import Paragraph from "../components/typography/Paragraph";
+import Button from "../components/typography/Button";
 import H2 from "../components/typography/H2";
 import H1 from "../components/typography/H1";
 
@@ -52,16 +53,10 @@ export default function Introduction() {
         found here:
       </Paragraph>
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.npeu.ox.ac.uk/ukoss/current-surveillance/covid-19-in-pregnancy#case-definition"
-            );
-          }}
-          title="UKOSS"
-        />
-      </View>
+      <Button
+        url="https://www.npeu.ox.ac.uk/ukoss/current-surveillance/covid-19-in-pregnancy#case-definition"
+        title="UKOSS"
+      />
 
       <Paragraph>
         This guidance will be kept under regular review as new evidence emerges.
@@ -72,14 +67,7 @@ export default function Introduction() {
         specific organisational requirements via this email address.
       </Paragraph>
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL("mailto:COVID-19@rcog.org.uk");
-          }}
-          title="Email us"
-        />
-      </View>
+      <Button url="mailto:COVID-19@rcog.org.uk" title="Email us" />
 
       <H2>The virus</H2>
 
@@ -104,45 +92,22 @@ export default function Introduction() {
         Health and Social Care, and is available in a visual dashboard.
       </Paragraph>
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
-            );
-          }}
-          title="WHO International Situation Report"
-        />
-      </View>
+      <Button
+        url="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+        title="WHO International Situation Report"
+      />
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL("https://covid19.who.int/");
-          }}
-          title="WHO Situation Dashboard"
-        />
-      </View>
+      <Button url="https://covid19.who.int/" title="WHO Situation Dashboard" />
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public"
-            );
-          }}
-          title="UK Total Cases"
-        />
-      </View>
+      <Button
+        url="https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public"
+        title="UK Total Cases"
+      />
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL("https://coronavirus.data.gov.uk/");
-          }}
-          title="UK Visual Dashboard"
-        />
-      </View>
+      <Button
+        url="https://coronavirus.data.gov.uk/"
+        title="UK Visual Dashboard"
+      />
 
       <Paragraph>
         This situation however is changing rapidly. For the most up-to-date
@@ -152,49 +117,25 @@ export default function Introduction() {
         Ireland.
       </Paragraph>
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.gov.uk/government/collections/wuhan-novel-coronavirus"
-            );
-          }}
-          title="England"
-        />
-      </View>
+      <Button
+        url="https://www.gov.uk/government/collections/wuhan-novel-coronavirus"
+        title="England"
+      />
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://phw.nhs.wales/news/public-health-wales-statement-on-novel-coronavirus-outbreak/"
-            );
-          }}
-          title="Wales"
-        />
-      </View>
+      <Button
+        url="https://phw.nhs.wales/news/public-health-wales-statement-on-novel-coronavirus-outbreak/"
+        title="Wales"
+      />
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.hps.scot.nhs.uk/a-to-z-of-topics/covid-19"
-            );
-          }}
-          title="Scotland"
-        />
-      </View>
+      <Button
+        url="https://www.hps.scot.nhs.uk/a-to-z-of-topics/covid-19"
+        title="Scotland"
+      />
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.publichealth.hscni.net/news/covid-19-what-situation-northern-ireland"
-            );
-          }}
-          title="Northern Ireland"
-        />
-      </View>
+      <Button
+        url="https://www.publichealth.hscni.net/news/covid-19-what-situation-northern-ireland"
+        title="Northern Ireland"
+      />
 
       <Paragraph>
         Public Health England (PHE) and Public Health Scotland (PHS) have been
@@ -222,16 +163,10 @@ export default function Introduction() {
         control (IPC) measures, as per local Health Protection guidance.
       </Paragraph>
 
-      <View style={{ marginBottom: 8 }}>
-        <Button
-          onPress={() => {
-            Linking.openURL(
-              "https://www.gov.uk/government/publications/wuhan-novel-coronavirus-infection-prevention-and-control"
-            );
-          }}
-          title="Health Protection guidance"
-        />
-      </View>
+      <Button
+        url="https://www.gov.uk/government/publications/wuhan-novel-coronavirus-infection-prevention-and-control"
+        title="Health Protection guidance"
+      />
 
       <Paragraph>
         Pregnant women do not appear more likely to contract the infection than
