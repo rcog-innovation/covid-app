@@ -8,7 +8,7 @@ import BulletPoints from "../components/typography/BulletPoints";
 
 export default function AdviceToShare() {
   return (
-    <ScrollView style={{ margin: 16 }}>
+    <ScrollView style={{ padding: 16 }}>
       <H1>Advice for health professionals to share with pregnant women</H1>
 
       <H2>General advice</H2>

@@ -34,24 +34,24 @@ export default function Navigation({ navigation }: Props) {
         <Drawer.Item
           label="Pregnant with suspected/confirmed Covid-19"
           onPress={() => {
-            navigation.navigate("Home");
+            navigation.navigate("Advice For Care");
           }}
         />
         <Drawer.Item
           label="Pregnant women recovering from Covid-19"
           onPress={() => {
-            navigation.navigate("Home");
+            navigation.navigate("Advice For Recovery");
           }}
         />
       </Drawer.Section>
-      <Drawer.Section title="Interactive">
+      {/* <Drawer.Section title="Interactive">
         <Drawer.Item
           label="Asses Covid-19 risk with maternity attendees"
           onPress={() => {
             navigation.navigate("Home");
           }}
         />
-      </Drawer.Section>
+      </Drawer.Section> */}
     </>
   );
 }

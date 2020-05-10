@@ -9,7 +9,7 @@ import { RootStackParamList } from "../App";
  */
 export default function Home({ navigation }: Props) {
   return (
-    <ScrollView style={{ margin: 16 }}>
+    <ScrollView style={{ padding: 16 }}>
       <Navigation navigation={navigation} />
     </ScrollView>
   );

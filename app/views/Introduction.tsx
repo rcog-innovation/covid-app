@@ -7,7 +7,7 @@ import H1 from "../components/typography/H1";
 
 export default function Introduction() {
   return (
-    <ScrollView style={{ margin: 16 }}>
+    <ScrollView style={{ padding: 16 }}>
       <H1>Introduction</H1>
 
       <Paragraph>

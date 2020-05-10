@@ -8,7 +8,7 @@ import BulletPoints from "../components/typography/BulletPoints";
 
 export default function MidwiferyObstetricAdvice() {
   return (
-    <ScrollView style={{ margin: 16 }}>
+    <ScrollView style={{ padding: 16 }}>
       <H1>
         Advice for all midwifery and obstetric services caring for pregnant
         women
