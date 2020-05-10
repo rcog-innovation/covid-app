@@ -44,14 +44,14 @@ export default function Navigation({ navigation }: Props) {
           }}
         />
       </Drawer.Section>
-      {/* <Drawer.Section title="Interactive">
+      <Drawer.Section title="Interactive">
         <Drawer.Item
           label="Asses Covid-19 risk with maternity attendees"
           onPress={() => {
-            navigation.navigate("Home");
+            navigation.navigate("Assess Risk");
           }}
         />
-      </Drawer.Section> */}
+      </Drawer.Section>
     </>
   );
 }

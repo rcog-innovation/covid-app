@@ -9,6 +9,7 @@ import AdviceToShare from "./views/AdviceToShare";
 import MidwiferyObstetricAdvice from "./views/MidwiferyObstetricAdvice";
 import AdviceCare from "./views/AdviceCare";
 import AdviceCareRecovering from "./views/AdviceCareRecovering";
+import AssessRisk from "./views/AssessRisk";
 
 const Stack = createStackNavigator();
 
@@ -30,6 +31,7 @@ export default function App() {
             name="Advice For Recovery"
             component={AdviceCareRecovering}
           />
+          <Stack.Screen name="Assess Risk" component={AssessRisk} />
         </Stack.Navigator>
       </NavigationContainer>
     </PaperProvider>
@@ -43,4 +45,5 @@ export type RootStackParamList = {
   ["Midwifery & Obstetric Advice"]: undefined;
   ["Advice For Care"]: undefined;
   ["Advice For Recovery"]: undefined;
+  ["Assess Risk"]: undefined;
 };
