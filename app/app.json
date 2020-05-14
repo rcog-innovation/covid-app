@@ -16,7 +16,12 @@
     },
     "assetBundlePatterns": ["assets/**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rcog.covidPregnancyApp"
+    },
+    "android": {
+      "package": "com.rcog.covidPregnancyApp",
+      "versionCode": 1
     }
   }
 }
