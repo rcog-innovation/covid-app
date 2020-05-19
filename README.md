@@ -3,6 +3,14 @@
 Advice for pregnancy-related medical practitioners (e.g. obstetricians & gynaecologists) provided by the [Royal College
 of Obstetricians & Gynaecologists](https://www.rcog.org.uk/).
 
+## Screenshots
+
+<p float="left">
+<img src="./docs/images/home.jpg" alt="App tells user if contact is detected" width="266" />
+<img src="./docs/images/advice-to-share.jpg" alt="App allows user to report symptoms" width="266"  />
+<img src="./docs/images/quiz.jpg" alt="App runs in the background" width="266"  />
+</p>
+
 ## How to Contribute
 
 Please [submit an issue](https://github.com/rcog-innovation/covid-app/issues) if you would like to volunteer on this
